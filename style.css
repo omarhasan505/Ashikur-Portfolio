@@ -1,0 +1,146 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+    --font3: "Baloo Da 2", sans-serif;
+    --black: #353535;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+
+#nav {
+    padding: 0;
+}
+
+#nav ul li a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: #353535;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 18px 20px;
+    position: relative;
+}
+
+#nav ul li a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: var(--black);
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+    transition: 0.5s ease;
+}
+
+#nav ul li a:hover::before {
+    visibility: visible;
+    width: 100%;
+}
+
+#banner h4 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;
+}
+
+#banner h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;
+}
+
+#banner p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+}
+
+#banner .banner_link {
+    margin-top: 50px;
+}
+
+#banner .banner_link a {
+    display: inline-flex;
+    background: rgb(169, 176, 169);
+    padding: 16px 45px;
+    text-decoration: none;
+}
+
+#banner .banner_link a:first-child {
+    background-color: #ffcc00;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    border-radius: 20px;
+}
+
+#banner .banner_link a:last-child {
+    background-color: transparent;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    border-radius: 20px;
+    outline: 2px solid var(--black);
+    color: var(--black);
+    margin-left: 40px;
+    padding: 14px 45px;
+}
+
+#banner .banner_link a:first-child:hover {
+    background: transparent;
+    outline: 2px solid var(--black);
+    color: var(--black);
+}
+
+#banner .banner_link span {
+    display: inline-flex;
+    line-height: 0;
+    align-items: center;
+}
+
+#banner .follow {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#banner .follow p {
+    margin-bottom: 0;
+}
+
+#banner .banner_social_icons {
+    display: flex;
+    align-items: center;
+}
+
+#banner .banner_social_icons a {
+    display: inline-flex;
+    align-items: center;
+    line-height: 0;
+    color: var(--black);
+    padding: 10px;
+    background: #F4F3F3;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+#banner .banner_social_icons a:hover {
+    transform: rotate(45deg);
+
+}

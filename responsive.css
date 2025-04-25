@@ -1,0 +1,47 @@
+@media (max-width: 991px) {
+
+    /* =============== NAVIGATION START ====================*/
+    #nav {
+        padding: 13px 0;
+        box-shadow: 3px 3px 30px #77777743;
+        /* background: red; */
+    }
+
+    #nav .navbar-toggler {
+        border: none;
+        background-color: transparent;
+        outline: none;
+    }
+
+    #offcanvasRight ul li {
+        padding: 10px 0;
+    }
+
+    /* =============== NAVIGATION END ======================*/
+
+    /* =============== BANNER START ====================*/
+    #banner .container {
+        padding: 30px 10px;
+        text-align: center;
+    }
+
+    #banner .container .contains {
+        padding: 30px 0;
+    }
+
+    #banner .container .contains h1 {
+        font-size: 45px;
+    }
+
+    #banner .banner_link a:last-child {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    #banner .follow {
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    /* =============== BANNER END ======================*/
+}
